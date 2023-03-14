@@ -6,141 +6,148 @@
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style-nav.css">
+        <link rel="stylesheet" href="css/style-splash.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <header class="header">
-            <div class="header__inner">
-                <h1 class="header__title">
-                    <a class="header__title-link" href="index.html">
-                        <img class="header__logo" src="img/emome-logo.png">
-                    </a>
-                </h1>
-                <nav class="header__menu-pc">
-                    <a class="header__link" href="company.html">COMPANY</a>
-                    <a class="header__link">SERVICE</a>
-                    <a class="header__link">NEWS</a>
-                    <a class="header__link">CONTACT</a>
-                </nav>
-            </div>
-
-
-            <!-- スマホ用ナビゲーションバー -->
-            <div class="header__menu-sp">
-                <div class="openbtn"><span></span><span></span><span></span></div>
-                <nav id="g-nav">
-                    <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-                        <ul>
-                            <li><a href="index.html">TOP</a></li> 
-                            <li><a href="company.html">COMPANY</a></li> 
-                            <li><a href="#">SERVICE</a></li> 
-                            <li><a href="#">NEWS</a></li> 
-                            <li><a href="#">CONTACT</a></li> 
-                        </ul>
+        <div id="splash">
+            <div id="splash-logo">LOADING...</div>
+            <!--/splash--></div>
+            <div class="splashbg"></div><!---画面遷移用-->
+            <div id="container">
+                <header class="header">
+                    <div class="header__inner">
+                        <h1 class="header__title">
+                            <a class="header__title-link" href="index.html">
+                                <img class="header__logo" src="img/emome-logo.png">
+                            </a>
+                        </h1>
+                        <nav class="header__menu-pc">
+                            <a class="header__link" href="company.html">COMPANY</a>
+                            <a class="header__link">SERVICE</a>
+                            <a class="header__link">NEWS</a>
+                            <a class="header__link">CONTACT</a>
+                        </nav>
                     </div>
-                </nav>
-                <div class="circle-bg"></div>
-            </div>
-        </header>
-
-        <main id="home">
-            <section class="mainvisual">
-                <div class="mainvisual__inner">
-                    <h2 class="mainvisual__title">Circulate Emotion</h2>
-                    <p class="mainvisual__content">はじめまして、emomeです。エモミーと呼んでください。<br>
-                        誰かのemotionが私を突き動かし、私のemotionがまた誰かの心を突き動かす。<br>
-                        emomeって、左右対称なんです。<br>
-                        右から左に、左から右に、感情を循環させたい、そんな想いを込めて名付けました。
-                    </p>
-                </div>
-            </section>
-    
-            <section class="company">
-                <div class="company__inner">
-                    <div class="company__content-wrapper">
-                        <h2 class="company__title index-title">
-                            <span class="index-title__en">COMPANY</span>
-                            <span class="index-title__ja">emomeについて</span>
-                        </h2>
-                        <div class="company__body">
-                            <p class="company__body-title">人々の”心”を支えるサービスを提供する。</p>
-                            <div class="company__body-text-wrapper">
-                                <p class="company__body-text">
-                                    emomeは、“Circulate Emotion”を掲げ、人々のポジティブな気持ちを循環させることを目指しています。
-                                </p>
+        
+        
+                    <!-- スマホ用ナビゲーションバー -->
+                    <div class="header__menu-sp">
+                        <div class="openbtn"><span></span><span></span><span></span></div>
+                        <nav id="g-nav">
+                            <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                                <ul>
+                                    <li><a href="index.html">TOP</a></li> 
+                                    <li><a href="company.html">COMPANY</a></li> 
+                                    <li><a href="#">SERVICE</a></li> 
+                                    <li><a href="#">NEWS</a></li> 
+                                    <li><a href="#">CONTACT</a></li> 
+                                </ul>
                             </div>
-                            <div class="company__button">
-                                <div class="button">
-                                    <a class="button__link" href="company.html">MORE</a>
+                        </nav>
+                        <div class="circle-bg"></div>
+                    </div>
+                </header>
+        
+                <main id="home">
+                    <section class="mainvisual">
+                        <div class="mainvisual__inner">
+                            <h2 class="mainvisual__title">Circulate Emotion</h2>
+                            <p class="mainvisual__content">はじめまして、emomeです。エモミーと呼んでください。<br>
+                                誰かのemotionが私を突き動かし、私のemotionがまた誰かの心を突き動かす。<br>
+                                emomeって、左右対称なんです。<br>
+                                右から左に、左から右に、感情を循環させたい、そんな想いを込めて名付けました。
+                            </p>
+                        </div>
+                    </section>
+            
+                    <section class="company">
+                        <div class="company__inner">
+                            <div class="company__content-wrapper">
+                                <h2 class="company__title index-title">
+                                    <span class="index-title__en">COMPANY</span>
+                                    <span class="index-title__ja">emomeについて</span>
+                                </h2>
+                                <div class="company__body">
+                                    <p class="company__body-title">人々の”心”を支えるサービスを提供する。</p>
+                                    <div class="company__body-text-wrapper">
+                                        <p class="company__body-text">
+                                            emomeは、“Circulate Emotion”を掲げ、人々のポジティブな気持ちを循環させることを目指しています。
+                                        </p>
+                                    </div>
+                                    <div class="company__button">
+                                        <div class="button">
+                                            <a class="button__link" href="company.html">MORE</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <img class="company__img" src="img/company.jpg">
                         </div>
-                    </div>
-                    <img class="company__img" src="img/company.jpg">
-                </div>
-            </section>
-    
-            <section class="service">
-                <div class="service__inner">
-                    <div class="service__content-wrapper">
-                        <h2 class="service__title index-title">
-                            <span class="index-title__en">SERVICE</span>
-                            <span class="index-title__ja">サービス</span>
-                        </h2>
-                        <div class="service__body">
-                            <p class="service__body-title">みなさんの心を支えるプロダクトがまもなく誕生。</p>
-                            <div class="service__body-text-wrapper">
-                                <p class="service__body-text">
-                                    comming soon...
-                                </p>
-                            </div>
-                            <div class="service__button">
-                                <div class="button">
-                                    <a class="button__link">MORE</a>
+                    </section>
+            
+                    <section class="service">
+                        <div class="service__inner">
+                            <div class="service__content-wrapper">
+                                <h2 class="service__title index-title">
+                                    <span class="index-title__en">SERVICE</span>
+                                    <span class="index-title__ja">サービス</span>
+                                </h2>
+                                <div class="service__body">
+                                    <p class="service__body-title">みなさんの心を支えるプロダクトがまもなく誕生。</p>
+                                    <div class="service__body-text-wrapper">
+                                        <p class="service__body-text">
+                                            comming soon...
+                                        </p>
+                                    </div>
+                                    <div class="service__button">
+                                        <div class="button">
+                                            <a class="button__link">MORE</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <img class="service__img" src="img/comming-soon.png">
+                        </div>
+                    </section>
+            
+                </main>
+        
+                <footer class="footer">
+                    <div class="footer__inner">
+                        <div class="footer__heading">
+                            <img class="footer__logo" src="img/emome-logo-white.png">
+                        </div>
+                        <div class="footer__body">
+                            <nav class="footer__links">
+                                <div class="footer__link">
+                                    <p class="footer__link-title">COMPANY</p>
+                                    <a class="footer__link-text" href="company.html">emomeについて</a>
+                                </div>
+                                <div class="footer__link">
+                                    <p class="footer__link-title">SERVICE</p>
+                                    <a class="footer__link-text">サービス</a>
+                                </div>
+                                <div class="footer__link">
+                                    <p class="footer__link-title">NEWS</p>
+                                    <a class="footer__link-text">新着情報</a>
+                                </div>
+                                <div class="footer__link">
+                                    <p class="footer__link-title">CONTACT</p>
+                                    <a class="footer__link-text">お問合せ</a>
+                                </div>
+                            </nav>
+                            <ul class="footer__docs">
+                                <li class="footer__doc"><a class="footer__doc-link">個人情報利用方針</a></li>
+                                <li class="footer__doc"><a class="footer__doc-link">情報セキュリティポリシー</a></li>
+                                <li class="footer__doc"><a class="footer__doc-link">セキュリティ＆プライバシー</a></li>
+                            </div>
                         </div>
                     </div>
-                    <img class="service__img" src="img/comming-soon.png">
-                </div>
-            </section>
-    
-        </main>
-
-        <footer class="footer">
-            <div class="footer__inner">
-                <div class="footer__heading">
-                    <img class="footer__logo" src="img/emome-logo-white.png">
-                </div>
-                <div class="footer__body">
-                    <nav class="footer__links">
-                        <div class="footer__link">
-                            <p class="footer__link-title">COMPANY</p>
-                            <a class="footer__link-text" href="company.html">emomeについて</a>
-                        </div>
-                        <div class="footer__link">
-                            <p class="footer__link-title">SERVICE</p>
-                            <a class="footer__link-text">サービス</a>
-                        </div>
-                        <div class="footer__link">
-                            <p class="footer__link-title">NEWS</p>
-                            <a class="footer__link-text">新着情報</a>
-                        </div>
-                        <div class="footer__link">
-                            <p class="footer__link-title">CONTACT</p>
-                            <a class="footer__link-text">お問合せ</a>
-                        </div>
-                    </nav>
-                    <ul class="footer__docs">
-                        <li class="footer__doc"><a class="footer__doc-link">個人情報利用方針</a></li>
-                        <li class="footer__doc"><a class="footer__doc-link">情報セキュリティポリシー</a></li>
-                        <li class="footer__doc"><a class="footer__doc-link">セキュリティ＆プライバシー</a></li>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copy">&copy; 2023 emome inc.</div>
-        </footer>
+                    <div class="footer__copy">&copy; 2023 emome inc.</div>
+                </footer>
+            <!--/container--></div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>

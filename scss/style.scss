@@ -183,6 +183,7 @@ img {
         width: 42%;
     }
     .service__img {
+        order: -1;
         width: 42%;
         height: 500px;
         object-fit: cover;
@@ -323,10 +324,10 @@ img {
     #home {
         .mainvisual {
             background-image: url('../img/mainvisual-sm.png');
+            margin-bottom: 80px;
         }
         .mainvisual__inner {
-            padding-top: 80px;
-            padding-left: 50px;
+            padding: 80px 30px 0px;
         }
         .mainvisual__title {
             text-align: center;
@@ -334,6 +335,30 @@ img {
         }
         .mainvisual__content {
             text-align: center;
+        }
+        .company__inner {
+            padding: 0 30px;
+            display: block;
+        }
+        .company__content-wrapper {
+            margin-left: 0px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        .company__img {
+            width: 100%;
+        }
+        .service__inner {
+            padding: 0 30px;
+            display: block;
+        }
+        .service__content-wrapper {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        .service__img {
+            margin-left: 0px;
+            width: 100%;
         }
     }
 }

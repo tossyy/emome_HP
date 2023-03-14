@@ -297,3 +297,27 @@ img {
 @media (max-width:767px) {
 
 }
+
+@media (max-width: 1020px) and (min-width: 768px) {
+    #home {
+        .mainvisual {
+            background-image: url('../img/mainvisual-mid.png');
+        }
+        .mainvisual__inner {
+            padding-top: 150px;
+            padding-left: 100px;
+        }
+    }
+    
+}
+@media (max-width: 767px) {
+    #home {
+        .mainvisual {
+            background-image: url('../img/mainvisual-sm.png');
+        }
+        .mainvisual__inner {
+            padding-top: 150px;
+            padding-left: 50px;
+        }
+    }
+}

@@ -39,10 +39,13 @@ img {
   margin: 0 0 0 auto; }
 
 .header__link {
-  margin-right: 50px; }
+  margin-right: 50px;
+  color: #000; }
 
 .footer {
-  padding: 10px 35px; }
+  padding: 60px 35px;
+  background-color: #262626;
+  color: #eee; }
 
 .footer__inner {
   display: flex;
@@ -77,11 +80,26 @@ img {
 
 .footer__copy {
   font-size: 12px;
+  text-align: center; }
+
+.button {
+  display: block;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
   text-align: center;
-  margin-bottom: 30px; }
+  border: solid 1px #333; }
+
+.button:hover {
+  background-color: #fff;
+  color: #333; }
+
+.button__link {
+  color: #fff; }
 
 #home .mainvisual {
-  background-image: url("../img/mainvisual_edit.png");
+  background-image: url("../img/mainvisual.png");
   background-size: cover;
   height: 100vh;
   margin-bottom: 200px; }
@@ -104,17 +122,6 @@ img {
   margin-bottom: 50px; }
 #home .index-title__en {
   margin-right: 30px; }
-#home .button {
-  display: block;
-  width: 200px;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  border: solid 1px #333; }
-#home .button:hover {
-  background-color: #fff;
-  color: #333; }
 #home .company {
   margin-bottom: 200px; }
 #home .company__inner {
@@ -148,7 +155,8 @@ img {
   width: 42%; }
 #home .service__img {
   width: 42%;
-  object-fit: contain;
+  height: 500px;
+  object-fit: cover;
   margin-left: 100px; }
 #home .service__body {
   padding-left: 60px; }

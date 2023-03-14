@@ -73,7 +73,8 @@ img {
   margin-bottom: 30px; }
 
 .footer__link-text {
-  margin-left: 10px; }
+  margin-left: 10px;
+  color: #eee; }
 
 .footer__docs {
   width: 47%; }
@@ -93,13 +94,14 @@ img {
   padding: 10px;
   text-align: center;
   border: solid 1px #333; }
+  .button .button__link {
+    color: #fff; }
 
 .button:hover {
   background-color: #fff;
   color: #333; }
-
-.button__link {
-  color: #fff; }
+  .button:hover .button__link {
+    color: #333; }
 
 #home .mainvisual {
   background-image: url("../img/mainvisual.png");

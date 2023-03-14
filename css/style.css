@@ -281,6 +281,26 @@ img {
     width: 100%; }
   #home .service__img {
     margin-left: 0px;
-    width: 100%; } }
+    width: 100%; }
+
+  #company .company-wrapper {
+    padding: 120px 30px 0px; }
+  #company .company__body {
+    margin-left: 0px; }
+  #company .top-view__title {
+    font-size: 40px; }
+  #company .profile dl dt {
+    width: 40%; }
+  #company .profile dl dd {
+    width: 60%; }
+  #company .ceo {
+    margin-bottom: 100px; }
+  #company .ceo__img {
+    position: relative;
+    top: 0;
+    left: 0; }
+  #company .ceo__message {
+    width: 100%;
+    background-color: transparent; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -35,14 +35,21 @@ img {
 .header__logo {
     height: 17px;
 }
-.header__menu {
+.header__menu-pc {
     display: flex;
     align-items: center;
     margin: 0 0 0 auto;
 }
+.header__menu-sp {
+    display: none;
+}
 .header__link {
     margin-right: 50px;
     color: #000;
+}
+
+.header__openbtn {
+    position: fixed;
 }
 
 .footer {
@@ -318,6 +325,12 @@ img {
         .mainvisual__inner {
             padding-top: 150px;
             padding-left: 50px;
+        }
+        .header__menu-pc {
+            display: none;
+        }
+        .header__menu-sp {
+            display: block;
         }
     }
 }

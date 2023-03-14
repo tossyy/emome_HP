@@ -23,7 +23,7 @@ img {
 .header {
   position: fixed;
   width: 100%;
-  padding: 35px; }
+  top: 35px; }
 
 .header__inner {
   display: flex;
@@ -256,7 +256,12 @@ img {
   #home .mainvisual {
     background-image: url("../img/mainvisual-sm.png"); }
   #home .mainvisual__inner {
-    padding-top: 150px;
-    padding-left: 50px; } }
+    padding-top: 80px;
+    padding-left: 50px; }
+  #home .mainvisual__title {
+    text-align: center;
+    font-size: 40px; }
+  #home .mainvisual__content {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

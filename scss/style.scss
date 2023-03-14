@@ -19,6 +19,9 @@ img {
     max-width: 100%;
 }
 
+.header__menu-sp {
+    display: none;
+}
 .header {
     position: fixed;
     width: 100%;
@@ -40,16 +43,9 @@ img {
     align-items: center;
     margin: 0 0 0 auto;
 }
-.header__menu-sp {
-    display: none;
-}
 .header__link {
     margin-right: 50px;
     color: #000;
-}
-
-.header__openbtn {
-    position: fixed;
 }
 
 .footer {
@@ -318,6 +314,12 @@ img {
     
 }
 @media (max-width: 767px) {
+    .header__menu-sp {
+        display: block;
+    }
+    .header__menu-pc {
+        display: none;
+    }
     #home {
         .mainvisual {
             background-image: url('../img/mainvisual-sm.png');
@@ -325,12 +327,6 @@ img {
         .mainvisual__inner {
             padding-top: 150px;
             padding-left: 50px;
-        }
-        .header__menu-pc {
-            display: none;
-        }
-        .header__menu-sp {
-            display: block;
         }
     }
 }

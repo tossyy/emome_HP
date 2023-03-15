@@ -303,6 +303,9 @@ img {
     left: 0; }
   #company .ceo__message {
     width: 100%;
-    background-color: transparent; } }
+    background-color: transparent;
+    padding: 30px 0px; }
+  #company .ceo__profile-name {
+    font-size: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
